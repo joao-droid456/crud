@@ -5,10 +5,8 @@ const charList = document.getElementById("charList");
 
 let editId = null;
 
-// Renderizar personagens em tempo real
 onGetCharacters((data) => {
   charList.innerHTML = "";
-  // data é um objeto { id1: {...}, id2: {...} }
   Object.entries(data).forEach(([id, char]) => {
     const li = document.createElement("li");
     li.innerHTML = `
@@ -31,7 +29,6 @@ onGetCharacters((data) => {
   });
 });
 
-// Submeter formulário
 charForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const name = document.getElementById("name").value;
