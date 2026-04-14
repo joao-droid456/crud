@@ -4,7 +4,7 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/12.11.0/firebase
 const firebaseConfig = {
   apiKey: "AIzaSyCUN1zIPCeGcBczMogmMifxZVZcDyK5mho",
   authDomain: "crud-b6ca3.firebaseapp.com",
-  databaseURL: "https://crud-b6ca3-default-rtdb.firebaseio.com", // importante!
+  databaseURL: "https://crud-b6ca3-default-rtdb.firebaseio.com", 
   projectId: "crud-b6ca3",
   storageBucket: "crud-b6ca3.appspot.com",
   messagingSenderId: "441213495407",
@@ -12,4 +12,4 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-export const db = getDatabase(app); // exportando database
+export const db = getDatabase(app); 
