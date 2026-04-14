@@ -1,4 +1,4 @@
-/* RESET BÁSICO */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-/* TÍTULO */
+
 h1 {
   font-size: 2.5rem;
   color: #f0c230;
@@ -24,7 +24,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* FORMULÁRIO */
+
 form {
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@ form button:hover {
   transform: translateY(-2px);
 }
 
-/* LISTA DE PERSONAGENS */
+
 ul {
   list-style: none;
   width: 350px;
@@ -94,7 +94,7 @@ li:hover {
   box-shadow: 0 0 12px #f0c230;
 }
 
-/* BOTÕES */
+
 li button {
   margin-left: 5px;
   padding: 5px 10px;
@@ -106,7 +106,7 @@ li button {
   transition: 0.2s;
 }
 
-/* Botão editar – verde mago */
+
 li button.edit {
   background-color: #4caf50;
   color: #fff;
@@ -117,7 +117,7 @@ li button.edit:hover {
   box-shadow: 0 0 6px #4caf50;
 }
 
-/* Botão deletar – vermelho guerreiro */
+
 li button.delete {
   background-color: #f44336;
   color: #fff;
@@ -128,7 +128,7 @@ li button.delete:hover {
   box-shadow: 0 0 6px #f44336;
 }
 
-/* DIFERENCIAÇÃO DE CLASSES (RPG) */
+
 li[data-classe="Mago"] {
   border-left: 6px solid #6a0dad;
 }
@@ -145,7 +145,7 @@ li[data-classe="Clérigo"] {
   border-left: 6px solid #00bfff;
 }
 
-/* TÍTULO DE LISTA */
+
 h2 {
   margin-bottom: 15px;
   color: #f0c230;
